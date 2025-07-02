@@ -1,0 +1,278 @@
+table 'temiz csv'
+	lineageTag: 0fab3721-36d0-49fc-8d9b-31cbd63518b1
+
+	column Number
+		dataType: int64
+		formatString: 0
+		lineageTag: d94ec4b6-8c5f-4dc2-8cc1-5a4b9ea2bedf
+		summarizeBy: sum
+		sourceColumn: Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Principio Attivo'
+		dataType: string
+		lineageTag: a1abade0-7edd-401d-8fc7-dcf18ceb852f
+		summarizeBy: none
+		sourceColumn: Principio Attivo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Descrizione Gruppo'
+		dataType: string
+		lineageTag: 0c0ea114-9348-4279-8aa1-f62c9eb5c02a
+		summarizeBy: none
+		sourceColumn: Descrizione Gruppo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Denominazione e Confezione'
+		dataType: string
+		lineageTag: 77a73775-c986-4728-b5ad-3cf436afca01
+		summarizeBy: none
+		sourceColumn: Denominazione e Confezione
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Titolare AIC'
+		dataType: string
+		lineageTag: b51f36d3-dcbb-4e91-945b-19f7bc549c7b
+		summarizeBy: none
+		sourceColumn: Titolare AIC
+
+		annotation SummarizationSetBy = Automatic
+
+	column AIC
+		dataType: int64
+		formatString: 0
+		lineageTag: e1afed74-ccd9-46de-a77a-6c797d186651
+		summarizeBy: sum
+		sourceColumn: AIC
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Codice Gruppo Equivalenza'
+		dataType: string
+		lineageTag: 37692e5d-6d5e-4bc7-81b5-806d0ee35780
+		summarizeBy: none
+		sourceColumn: Codice Gruppo Equivalenza
+
+		annotation SummarizationSetBy = Automatic
+
+	column '4.1 Indicazioni terapeutiche'
+		dataType: string
+		lineageTag: 0061f353-2c4e-486c-8f2d-1dbeadc0b332
+		summarizeBy: none
+		sourceColumn: 4.1 Indicazioni terapeutiche
+
+		annotation SummarizationSetBy = Automatic
+
+	column '4.2 Posologia e modo di somministrazione'
+		dataType: string
+		lineageTag: a48ca64e-876d-452e-8283-1f55f8c0fc6d
+		summarizeBy: none
+		sourceColumn: 4.2 Posologia e modo di somministrazione
+
+		annotation SummarizationSetBy = Automatic
+
+	column '4.3 Controindicazioni'
+		dataType: string
+		lineageTag: e591215a-3faa-41ec-b893-e3a5953b28b3
+		summarizeBy: none
+		sourceColumn: 4.3 Controindicazioni
+
+		annotation SummarizationSetBy = Automatic
+
+	column '4.4 Avvertenze speciali e precauzioni di impiego'
+		dataType: string
+		lineageTag: c3f0cf51-b625-4adc-8d63-e23bacd104f5
+		summarizeBy: none
+		sourceColumn: 4.4 Avvertenze speciali e precauzioni di impiego
+
+		annotation SummarizationSetBy = Automatic
+
+	column '4.5 Interazioni con altri medicinali ed altre forme di interazione'
+		dataType: string
+		lineageTag: 4f503117-cd3a-4da3-a678-318be50edd1f
+		summarizeBy: none
+		sourceColumn: 4.5 Interazioni con altri medicinali ed altre forme di interazione
+
+		annotation SummarizationSetBy = Automatic
+
+	column '4.6 Gravidanza e allattamento'
+		dataType: string
+		lineageTag: 7ca1c37d-0144-4e6f-b540-d03cea809e75
+		summarizeBy: none
+		sourceColumn: 4.6 Gravidanza e allattamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column '4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari'
+		dataType: string
+		lineageTag: 1a1318b4-00cf-4c70-bdf6-c959c7003e19
+		summarizeBy: none
+		sourceColumn: 4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari
+
+		annotation SummarizationSetBy = Automatic
+
+	column '4.8 Effetti indesiderati'
+		dataType: string
+		lineageTag: 712df9a9-63d7-4438-b57c-f50dcbb73d00
+		summarizeBy: none
+		sourceColumn: 4.8 Effetti indesiderati
+
+		annotation SummarizationSetBy = Automatic
+
+	column '4.9 Sovradosaggio'
+		dataType: string
+		lineageTag: 71d50292-df2e-45d0-b037-848ca88f5cb7
+		summarizeBy: none
+		sourceColumn: 4.9 Sovradosaggio
+
+		annotation SummarizationSetBy = Automatic
+
+	column '6.2 Incompatibilità'
+		dataType: string
+		lineageTag: 339c7c8a-1a97-4f07-85fc-a3a68345af46
+		summarizeBy: none
+		sourceColumn: 6.2 Incompatibilità
+
+		annotation SummarizationSetBy = Automatic
+
+	column ATC
+		dataType: string
+		lineageTag: 5f8f80b5-e552-41e9-81d8-0ca6e3c9220b
+		summarizeBy: none
+		sourceColumn: ATC
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'RCP PDF URL'
+		dataType: string
+		lineageTag: 425201c5-51b2-4908-b3b3-19cf335b6cfd
+		summarizeBy: none
+		sourceColumn: RCP PDF URL
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tanı (Hastalıklar)'
+		dataType: string
+		lineageTag: e0c33024-4c14-44e2-aaad-a5ba0430aa56
+		summarizeBy: none
+		sourceColumn: Tanı (Hastalıklar)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Via di somministrazione'
+		dataType: string
+		lineageTag: 2aa8892c-3f2d-4b6c-8fa8-463c6b477b17
+		summarizeBy: none
+		sourceColumn: Via di somministrazione
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Assunzione con/senza cibo'
+		dataType: string
+		lineageTag: 92c9d9c3-7010-4824-924a-cad1da2385ac
+		summarizeBy: none
+		sourceColumn: Assunzione con/senza cibo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Kontrendikasyonlar
+		dataType: string
+		lineageTag: 4d1ed4f7-e633-461d-a45a-a93fbc7219f3
+		summarizeBy: none
+		sourceColumn: Kontrendikasyonlar
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Uyarı Kategorileri'
+		dataType: string
+		lineageTag: efd659a4-e3c3-4b9b-af04-2876fac3a9db
+		summarizeBy: none
+		sourceColumn: Uyarı Kategorileri
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Interazioni Farmaco-Farmaco'
+		dataType: string
+		lineageTag: 385d8771-b61b-419d-9a71-cb2cae07259f
+		summarizeBy: none
+		sourceColumn: Interazioni Farmaco-Farmaco
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Utilizzo in gravidanza'
+		dataType: string
+		lineageTag: 31ad5471-bc1e-4260-914c-9c72f09f8223
+		summarizeBy: none
+		sourceColumn: Utilizzo in gravidanza
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Utilizzo in allattamento'
+		dataType: string
+		lineageTag: d17f6930-60c9-42d8-ba6f-7f287f800713
+		summarizeBy: none
+		sourceColumn: Utilizzo in allattamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Effetti indesiderati (sintomi)'
+		dataType: string
+		lineageTag: 72cd8a6e-44b6-4d3e-93b2-7f4c29b73781
+		summarizeBy: none
+		sourceColumn: Effetti indesiderati (sintomi)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Sovradosaggio Semptomları'
+		dataType: string
+		lineageTag: 6fff6860-4fdb-4442-8d6e-88647db74c35
+		summarizeBy: none
+		sourceColumn: Sovradosaggio Semptomları
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'temiz csv' = m
+		mode: import
+		source =
+				let
+				    Kaynak = Excel.Workbook(File.Contents("C:\Users\achir\OneDrive\Desktop\temiz.xlsx"), null, true),
+				    temiz.csv_Sheet = Kaynak{[Item="temiz.csv",Kind="Sheet"]}[Data],
+				    #"Tanıtılan Üst Bilgiler" = Table.PromoteHeaders(temiz.csv_Sheet, [PromoteAllScalars=true]),
+				    #"Değiştirilen Tür" = Table.TransformColumnTypes(#"Tanıtılan Üst Bilgiler",{{"Number", Int64.Type}, {"Principio Attivo", type text}, {"Descrizione Gruppo", type text}, {"Denominazione e Confezione", type text}, {"Titolare AIC", type text}, {"AIC", Int64.Type}, {"Codice Gruppo Equivalenza", type text}, {"4.1 Indicazioni terapeutiche", type text}, {"4.2 Posologia e modo di somministrazione", type text}, {"4.3 Controindicazioni", type text}, {"4.4 Avvertenze speciali e precauzioni di impiego", type text}, {"4.5 Interazioni con altri medicinali ed altre forme di interazione", type text}, {"4.6 Gravidanza e allattamento", type text}, {"4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari", type text}, {"4.8 Effetti indesiderati", type text}, {"4.9 Sovradosaggio", type text}, {"6.2 Incompatibilità", type text}, {"ATC", type text}, {"RCP PDF URL", type text}}),
+				    #"Python betiği çalıştır" = Python.Execute("import pandas as pd#(lf)import re#(lf)#(lf)df = dataset.copy()#(lf)#(lf)# Belirlenen hastalık terimleri listesi (İtalyanca)#(lf)medical_terms = {#(lf)    ""ulcere"", ""gastriche"", ""duodenali"", ""carcinoma"", ""ipotiroidismo"", ""ipertiroidismo"", ""broncospasmo"",#(lf)    ""infezioni"", ""pseudomonas"", ""esofagite"", ""reflusso"", ""anemie"", ""vomito"", ""nefrite"", ""sindrome"",#(lf)    ""parkinson"", ""prinzmetal"", ""candidosi"", ""rinite"", ""asma"", ""tubercolosi"", ""meningite"", ""zollinger"",#(lf)    ""citomegalovirus"", ""midollo"", ""neoplasie"", ""ustioni"", ""sepsi"", ""setticemie"", ""malattia"", ""cistite"",#(lf)    ""tosse"", ""ipertensione"", ""epilessia"", ""osteoporosi""  # Yeni eklenen terimler#(lf)}#(lf)#(lf)def extract_explicit_diseases(text):#(lf)    text = str(text).lower()#(lf)    found = [term for term in medical_terms if term in text]#(lf)    return "", "".join(sorted(set(found))) if found else """"#(lf)#(lf)df[""Tanı (Hastalıklar)""] = df[""4.1 Indicazioni terapeutiche""].apply(extract_explicit_diseases)#(lf)#(lf)dataset = df#(lf)",[dataset=#"Değiştirilen Tür"]),
+				    df = #"Python betiği çalıştır"{[Name="df"]}[Value],
+				    #"Değiştirilen Tür1" = Table.TransformColumnTypes(df,{{"Number", Int64.Type}, {"Principio Attivo", type text}, {"Descrizione Gruppo", type text}, {"Denominazione e Confezione", type text}, {"Titolare AIC", type text}, {"AIC", Int64.Type}, {"Codice Gruppo Equivalenza", type text}, {"4.1 Indicazioni terapeutiche", type text}, {"4.2 Posologia e modo di somministrazione", type text}, {"4.3 Controindicazioni", type text}, {"4.4 Avvertenze speciali e precauzioni di impiego", type text}, {"4.5 Interazioni con altri medicinali ed altre forme di interazione", type text}, {"4.6 Gravidanza e allattamento", type text}, {"4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari", type text}, {"4.8 Effetti indesiderati", type text}, {"4.9 Sovradosaggio", type text}, {"6.2 Incompatibilità", type text}, {"ATC", type text}, {"RCP PDF URL", type text}, {"Tanı (Hastalıklar)", type text}}),
+				    #"Python betiği çalıştır1" = Python.Execute("import pandas as pd#(lf)import re#(lf)#(lf)df = dataset.copy()#(lf)#(lf)def extract_route(text):#(lf)    text = str(text).lower()#(lf)    if any(word in text for word in [""iniettabile"", ""iniezione"", ""intramuscolare"", ""endovenosa"", ""infusione"", ""sottocutanea"", ""intravenosa"", ""intramuscolo"", ""siringa""]):#(lf)        return ""Iniettiva/Endovenosa""#(lf)    elif ""topica"" in text or ""locale"" in text:#(lf)        return ""Topica""#(lf)    elif ""oculare"" in text:#(lf)        return ""Oculare""#(lf)    elif ""rettale"" in text:#(lf)        return ""Rettale""#(lf)    elif ""inalatoria"" in text:#(lf)        return ""Inalatoria""#(lf)    else:#(lf)        return ""Orale""#(lf)#(lf)def extract_food_instruction(text):#(lf)    text = str(text).lower()#(lf)    if any(phrase in text for phrase in [""a stomaco vuoto"", ""prima dei pasti"", ""a digiuno""]):#(lf)        return ""A stomaco vuoto""#(lf)    elif any(phrase in text for phrase in [""con il cibo"", ""durante i pasti"", ""dopo i pasti""]):#(lf)        return ""Con il cibo""#(lf)    else:#(lf)        return ""Non specificato""#(lf)#(lf)# Uygulama şekli#(lf)df[""Via di somministrazione""] = df[""4.2 Posologia e modo di somministrazione""].apply(extract_route)#(lf)#(lf)# Aç/tok bilgisi#(lf)df[""Assunzione con/senza cibo""] = df[""4.2 Posologia e modo di somministrazione""].apply(extract_food_instruction)#(lf)#(lf)dataset = df#(lf)",[dataset=#"Değiştirilen Tür1"]),
+				    df1 = #"Python betiği çalıştır1"{[Name="df"]}[Value],
+				    #"Değiştirilen Tür2" = Table.TransformColumnTypes(df1,{{"Number", Int64.Type}, {"Principio Attivo", type text}, {"Descrizione Gruppo", type text}, {"Denominazione e Confezione", type text}, {"Titolare AIC", type text}, {"AIC", Int64.Type}, {"Codice Gruppo Equivalenza", type text}, {"4.1 Indicazioni terapeutiche", type text}, {"4.2 Posologia e modo di somministrazione", type text}, {"4.3 Controindicazioni", type text}, {"4.4 Avvertenze speciali e precauzioni di impiego", type text}, {"4.5 Interazioni con altri medicinali ed altre forme di interazione", type text}, {"4.6 Gravidanza e allattamento", type text}, {"4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari", type text}, {"4.8 Effetti indesiderati", type text}, {"4.9 Sovradosaggio", type text}, {"6.2 Incompatibilità", type text}, {"ATC", type text}, {"RCP PDF URL", type text}, {"Tanı (Hastalıklar)", type text}, {"Via di somministrazione", type text}, {"Assunzione con/senza cibo", type text}}),
+				    #"Python betiği çalıştır2" = Python.Execute("import pandas as pd#(lf)#(lf)df = dataset.copy()#(lf)#(lf)# Kontrendikasyonla ilgili yaygın durum ve hastalıklar (İtalyanca)#(lf)kontrendikasyonlar = {#(lf)    ""gravidanza"", ""allattamento"", ""ipersensibilità"", ""allergia"", ""ipertensione"",#(lf)    ""epatopatia"", ""insufficienza renale"", ""insufficienza epatica"", ""diabete"",#(lf)    ""depressione"", ""ipotiroidismo"", ""asma"", ""epilessia"", ""nefropatia"", ""cardiopatia"",#(lf)    ""anemia"", ""ulcera"", ""glaucoma"", ""lupus"", ""tumore"", ""neoplasia"", ""sindrome"",#(lf)    ""cirrosi"", ""morbo"", ""aritmia""#(lf)}#(lf)#(lf)def extract_contraindications(text):#(lf)    text = str(text).lower()#(lf)    found = [term for term in kontrendikasyonlar if term in text]#(lf)    return "", "".join(sorted(set(found))) if found else """"#(lf)#(lf)df[""Kontrendikasyonlar""] = df[""4.3 Controindicazioni""].apply(extract_contraindications)#(lf)#(lf)dataset = df#(lf)",[dataset=#"Değiştirilen Tür2"]),
+				    df2 = #"Python betiği çalıştır2"{[Name="df"]}[Value],
+				    #"Değiştirilen Tür3" = Table.TransformColumnTypes(df2,{{"Number", Int64.Type}, {"Principio Attivo", type text}, {"Descrizione Gruppo", type text}, {"Denominazione e Confezione", type text}, {"Titolare AIC", type text}, {"AIC", Int64.Type}, {"Codice Gruppo Equivalenza", type text}, {"4.1 Indicazioni terapeutiche", type text}, {"4.2 Posologia e modo di somministrazione", type text}, {"4.3 Controindicazioni", type text}, {"4.4 Avvertenze speciali e precauzioni di impiego", type text}, {"4.5 Interazioni con altri medicinali ed altre forme di interazione", type text}, {"4.6 Gravidanza e allattamento", type text}, {"4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari", type text}, {"4.8 Effetti indesiderati", type text}, {"4.9 Sovradosaggio", type text}, {"6.2 Incompatibilità", type text}, {"ATC", type text}, {"RCP PDF URL", type text}, {"Tanı (Hastalıklar)", type text}, {"Via di somministrazione", type text}, {"Assunzione con/senza cibo", type text}, {"Kontrendikasyonlar", type text}}),
+				    #"Python betiği çalıştır3" = Python.Execute("import pandas as pd#(lf)#(lf)df = dataset.copy()#(lf)#(lf)def extract_alert_categories(text):#(lf)    text = str(text).lower()#(lf)    categories = []#(lf)#(lf)    if ""epatica"" in text or ""fegato"" in text:#(lf)        categories.append(""Funzione epatica"")#(lf)    if ""renale"" in text:#(lf)        categories.append(""Funzione renale"")#(lf)    if ""capogiri"" in text or ""sonnolenza"" in text or ""convulsioni"" in text:#(lf)        categories.append(""Sistema nervoso"")#(lf)    if ""anziani"" in text or ""età avanzata"" in text:#(lf)        categories.append(""Anziani"")#(lf)    if ""bambini"" in text or ""pediatrico"" in text:#(lf)        categories.append(""Bambini"")#(lf)    if ""ipersensibilità"" in text or ""allergia"" in text:#(lf)        categories.append(""Ipersensibilità"")#(lf)    if ""monitorare"" in text or ""valutare"" in text or ""test"" in text:#(lf)        categories.append(""Monitoraggio necessario"")#(lf)#(lf)    return "", "".join(sorted(set(categories))) if categories else """"#(lf)#(lf)df[""Uyarı Kategorileri""] = df[""4.4 Avvertenze speciali e precauzioni di impiego""].apply(extract_alert_categories)#(lf)#(lf)dataset = df#(lf)",[dataset=#"Değiştirilen Tür3"]),
+				    df3 = #"Python betiği çalıştır3"{[Name="df"]}[Value],
+				    #"Değiştirilen Tür4" = Table.TransformColumnTypes(df3,{{"Number", Int64.Type}, {"Principio Attivo", type text}, {"Descrizione Gruppo", type text}, {"Denominazione e Confezione", type text}, {"Titolare AIC", type text}, {"AIC", Int64.Type}, {"Codice Gruppo Equivalenza", type text}, {"4.1 Indicazioni terapeutiche", type text}, {"4.2 Posologia e modo di somministrazione", type text}, {"4.3 Controindicazioni", type text}, {"4.4 Avvertenze speciali e precauzioni di impiego", type text}, {"4.5 Interazioni con altri medicinali ed altre forme di interazione", type text}, {"4.6 Gravidanza e allattamento", type text}, {"4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari", type text}, {"4.8 Effetti indesiderati", type text}, {"4.9 Sovradosaggio", type text}, {"6.2 Incompatibilità", type text}, {"ATC", type text}, {"RCP PDF URL", type text}, {"Tanı (Hastalıklar)", type text}, {"Via di somministrazione", type text}, {"Assunzione con/senza cibo", type text}, {"Kontrendikasyonlar", type text}, {"Uyarı Kategorileri", type text}}),
+				    #"Python betiği çalıştır4" = Python.Execute("import pandas as pd#(lf)#(lf)# Kaynak veriyi Power BI'dan al#(lf)df = dataset.copy()#(lf)#(lf)# İlaç etkileşimleri için anahtar kelimeler#(lf)interaction_terms = {#(lf)    ""diuretici"", #(lf)    ""ace inibitori"", #(lf)    ""fans"", #(lf)    ""antinfiammatori"", #(lf)    ""anticoagulanti"", #(lf)    ""antipertensivi"", #(lf)    ""litio"", #(lf)    ""insulina"", #(lf)    ""ipoglicemizzanti"", #(lf)    ""ssri"", #(lf)    ""beta-bloccanti"", #(lf)    ""calcio-antagonisti"", #(lf)    ""antibiotici"", #(lf)    ""antifungini"", #(lf)    ""antivirali"", #(lf)    ""ciclosporina"", #(lf)    ""digossina"", #(lf)    ""anticonvulsivanti""#(lf)}#(lf)#(lf)# Fonksiyon: 4.5 metninden ilaç etkileşimlerini çıkart#(lf)def extract_drug_interactions(text):#(lf)    if pd.isna(text):#(lf)        return """"#(lf)    text = str(text).lower()#(lf)    found = [term for term in interaction_terms if term in text]#(lf)    return "", "".join(sorted(set(found))) if found else """"#(lf)#(lf)# Yeni sütunu oluştur#(lf)df[""Interazioni Farmaco-Farmaco""] = df[""4.5 Interazioni con altri medicinali ed altre forme di interazione""].apply(extract_drug_interactions)#(lf)#(lf)# Sonuç olarak dataframe'i döndür#(lf)dataset = df#(lf)",[dataset=#"Değiştirilen Tür4"]),
+				    df4 = #"Python betiği çalıştır4"{[Name="df"]}[Value],
+				    #"Değiştirilen Tür5" = Table.TransformColumnTypes(df4,{{"Number", Int64.Type}, {"Principio Attivo", type text}, {"Descrizione Gruppo", type text}, {"Denominazione e Confezione", type text}, {"Titolare AIC", type text}, {"AIC", Int64.Type}, {"Codice Gruppo Equivalenza", type text}, {"4.1 Indicazioni terapeutiche", type text}, {"4.2 Posologia e modo di somministrazione", type text}, {"4.3 Controindicazioni", type text}, {"4.4 Avvertenze speciali e precauzioni di impiego", type text}, {"4.5 Interazioni con altri medicinali ed altre forme di interazione", type text}, {"4.6 Gravidanza e allattamento", type text}, {"4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari", type text}, {"4.8 Effetti indesiderati", type text}, {"4.9 Sovradosaggio", type text}, {"6.2 Incompatibilità", type text}, {"ATC", type text}, {"RCP PDF URL", type text}, {"Tanı (Hastalıklar)", type text}, {"Via di somministrazione", type text}, {"Assunzione con/senza cibo", type text}, {"Kontrendikasyonlar", type text}, {"Uyarı Kategorileri", type text}, {"Interazioni Farmaco-Farmaco", type text}}),
+				    #"Python betiği çalıştır5" = Python.Execute("import pandas as pd#(lf)#(lf)df = dataset.copy()#(lf)#(lf)# Metni analiz edip hamilelik ve emzirme ile ilgili bilgi çıkaran fonksiyonlar#(lf)def extract_gravidanza(text):#(lf)    if pd.isna(text): return """"#(lf)    text = str(text).lower()#(lf)    if ""gravidanza"" in text or ""gravidanza e"" in text:#(lf)        if ""controindicato"" in text or ""non raccomandato"" in text:#(lf)            return ""Controindicato""#(lf)        elif ""solo se necessario"" in text or ""valutare rischio"" in text:#(lf)            return ""Usare con cautela""#(lf)        elif ""sicuro"" in text or ""può essere usato"" in text:#(lf)            return ""Consentito""#(lf)        else:#(lf)            return ""Informazioni presenti""#(lf)    return """"#(lf)#(lf)def extract_allattamento(text):#(lf)    if pd.isna(text): return """"#(lf)    text = str(text).lower()#(lf)    if ""allattamento"" in text:#(lf)        if ""evitare"" in text or ""controindicato"" in text:#(lf)            return ""Controindicato""#(lf)        elif ""passa nel latte"" in text or ""valutare rischio"" in text:#(lf)            return ""Usare con cautela""#(lf)        elif ""sicuro"" in text or ""può essere usato"" in text:#(lf)            return ""Consentito""#(lf)        else:#(lf)            return ""Informazioni presenti""#(lf)    return """"#(lf)#(lf)# Yeni sütunları oluştur#(lf)df[""Utilizzo in gravidanza""] = df[""4.6 Gravidanza e allattamento""].apply(extract_gravidanza)#(lf)df[""Utilizzo in allattamento""] = df[""4.6 Gravidanza e allattamento""].apply(extract_allattamento)#(lf)#(lf)dataset = df#(lf)",[dataset=#"Değiştirilen Tür5"]),
+				    df5 = #"Python betiği çalıştır5"{[Name="df"]}[Value],
+				    #"Değiştirilen Tür6" = Table.TransformColumnTypes(df5,{{"Number", Int64.Type}, {"Principio Attivo", type text}, {"Descrizione Gruppo", type text}, {"Denominazione e Confezione", type text}, {"Titolare AIC", type text}, {"AIC", Int64.Type}, {"Codice Gruppo Equivalenza", type text}, {"4.1 Indicazioni terapeutiche", type text}, {"4.2 Posologia e modo di somministrazione", type text}, {"4.3 Controindicazioni", type text}, {"4.4 Avvertenze speciali e precauzioni di impiego", type text}, {"4.5 Interazioni con altri medicinali ed altre forme di interazione", type text}, {"4.6 Gravidanza e allattamento", type text}, {"4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari", type text}, {"4.8 Effetti indesiderati", type text}, {"4.9 Sovradosaggio", type text}, {"6.2 Incompatibilità", type text}, {"ATC", type text}, {"RCP PDF URL", type text}, {"Tanı (Hastalıklar)", type text}, {"Via di somministrazione", type text}, {"Assunzione con/senza cibo", type text}, {"Kontrendikasyonlar", type text}, {"Uyarı Kategorileri", type text}, {"Interazioni Farmaco-Farmaco", type text}, {"Utilizzo in gravidanza", type text}, {"Utilizzo in allattamento", type text}}),
+				    #"Python betiği çalıştır6" = Python.Execute("import pandas as pd#(lf)#(lf)df = dataset.copy()#(lf)#(lf)# Genişletilmiş yan etki anahtar kelimeleri listesi (İtalyanca)#(lf)side_effect_keywords = {#(lf)    ""sonnolenza"", ""capogiro"", ""vertigini"", ""nausea"", ""vomito"", ""cefalea"", ""insonnia"",#(lf)    ""tremore"", ""affaticamento"", ""debolezza"", ""diarrea"", ""ansia"", ""agitazione"",#(lf)    ""tachicardia"", ""palpitazioni"", ""aritmie cardiache"", ""angina pectoris"",#(lf)    ""crampi muscolari"", ""febbre"", ""irrequietezza"", ""iperidrosi"", ""perdita di peso"",#(lf)    ""reazioni allergiche"", ""pseudotumor cerebri""#(lf)}#(lf)#(lf)def extract_side_effects(text):#(lf)    text = str(text).lower()#(lf)    found = [term for term in side_effect_keywords if term in text]#(lf)    return "", "".join(sorted(set(found))) if found else """"#(lf)#(lf)# Yeni sütunu oluştur#(lf)df[""Effetti indesiderati (sintomi)""] = df[""4.8 Effetti indesiderati""].apply(extract_side_effects)#(lf)#(lf)dataset = df#(lf)",[dataset=#"Değiştirilen Tür6"]),
+				    df6 = #"Python betiği çalıştır6"{[Name="df"]}[Value],
+				    #"Değiştirilen Tür7" = Table.TransformColumnTypes(df6,{{"Number", Int64.Type}, {"Principio Attivo", type text}, {"Descrizione Gruppo", type text}, {"Denominazione e Confezione", type text}, {"Titolare AIC", type text}, {"AIC", Int64.Type}, {"Codice Gruppo Equivalenza", type text}, {"4.1 Indicazioni terapeutiche", type text}, {"4.2 Posologia e modo di somministrazione", type text}, {"4.3 Controindicazioni", type text}, {"4.4 Avvertenze speciali e precauzioni di impiego", type text}, {"4.5 Interazioni con altri medicinali ed altre forme di interazione", type text}, {"4.6 Gravidanza e allattamento", type text}, {"4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari", type text}, {"4.8 Effetti indesiderati", type text}, {"4.9 Sovradosaggio", type text}, {"6.2 Incompatibilità", type text}, {"ATC", type text}, {"RCP PDF URL", type text}, {"Tanı (Hastalıklar)", type text}, {"Via di somministrazione", type text}, {"Assunzione con/senza cibo", type text}, {"Kontrendikasyonlar", type text}, {"Uyarı Kategorileri", type text}, {"Interazioni Farmaco-Farmaco", type text}, {"Utilizzo in gravidanza", type text}, {"Utilizzo in allattamento", type text}, {"Effetti indesiderati (sintomi)", type text}}),
+				    #"Python betiği çalıştır7" = Python.Execute("import pandas as pd#(lf)#(lf)# Dataset'in kopyasını al (Power BI'de dataset olarak gelir)#(lf)df = dataset.copy()#(lf)#(lf)# Aşırı doz semptomları listesi#(lf)overdose_symptoms = {#(lf)    ""tachicardia"", ""agitazione"", ""tremore"", ""cefalea"", ""insonnia"", ""nervosismo"",#(lf)    ""crampi"", ""vomito"", ""diarrea"", ""perdita di peso"", ""ansia"", ""aritmie"",#(lf)    ""palpitazioni"", ""sudorazione"", ""febbre"", ""dolore toracico"", ""ipertensione"",#(lf)    ""irrequietezza"", ""debolezza"", ""vampate"", ""disturbi mestruali"", ""iperidrosi"",#(lf)    ""pseudotumor cerebri"", ""allucinazioni"", ""convulsioni"", ""confusione"",#(lf)    ""respiro corto"", ""coma"", ""ipertermia"", ""ipotensione"", ""ipokaliemia"",#(lf)    ""secchezza delle fauci"", ""mioclono"", ""iperattività"", ""ansia intensa"",#(lf)    ""iperstimolazione"", ""midriasi"", ""nausea"", ""nausea grave""#(lf)}#(lf)#(lf)# Aşırı doz semptomlarını ayıklayan fonksiyon#(lf)def extract_overdose_symptoms(text):#(lf)    text = str(text).lower()#(lf)    found = [symptom for symptom in overdose_symptoms if symptom in text]#(lf)    return "", "".join(sorted(set(found))) if found else """"#(lf)#(lf)# Yeni sütun oluştur#(lf)df[""Sovradosaggio Semptomları""] = df[""4.9 Sovradosaggio""].apply(extract_overdose_symptoms)#(lf)#(lf)# Sonuçları Power BI'a aktar#(lf)dataset = df#(lf)",[dataset=#"Değiştirilen Tür7"]),
+				    df7 = #"Python betiği çalıştır7"{[Name="df"]}[Value],
+				    #"Değiştirilen Tür8" = Table.TransformColumnTypes(df7,{{"Number", Int64.Type}, {"Principio Attivo", type text}, {"Descrizione Gruppo", type text}, {"Denominazione e Confezione", type text}, {"Titolare AIC", type text}, {"AIC", Int64.Type}, {"Codice Gruppo Equivalenza", type text}, {"4.1 Indicazioni terapeutiche", type text}, {"4.2 Posologia e modo di somministrazione", type text}, {"4.3 Controindicazioni", type text}, {"4.4 Avvertenze speciali e precauzioni di impiego", type text}, {"4.5 Interazioni con altri medicinali ed altre forme di interazione", type text}, {"4.6 Gravidanza e allattamento", type text}, {"4.7 Effetti sulla capacità di guidare veicoli e sull’uso di macchinari", type text}, {"4.8 Effetti indesiderati", type text}, {"4.9 Sovradosaggio", type text}, {"6.2 Incompatibilità", type text}, {"ATC", type text}, {"RCP PDF URL", type text}, {"Tanı (Hastalıklar)", type text}, {"Via di somministrazione", type text}, {"Assunzione con/senza cibo", type text}, {"Kontrendikasyonlar", type text}, {"Uyarı Kategorileri", type text}, {"Interazioni Farmaco-Farmaco", type text}, {"Utilizzo in gravidanza", type text}, {"Utilizzo in allattamento", type text}, {"Effetti indesiderati (sintomi)", type text}, {"Sovradosaggio Semptomları", type text}}),
+				    #"Sütunu Sınırlayıcıya Göre Böl" = Table.ExpandListColumn(Table.TransformColumns(#"Değiştirilen Tür8", {{"Effetti indesiderati (sintomi)", Splitter.SplitTextByDelimiter(",", QuoteStyle.Csv), let itemType = (type nullable text) meta [Serialized.Text = true] in type {itemType}}}), "Effetti indesiderati (sintomi)"),
+				    #"Değiştirilen Tür9" = Table.TransformColumnTypes(#"Sütunu Sınırlayıcıya Göre Böl",{{"Effetti indesiderati (sintomi)", type text}})
+				in
+				    #"Değiştirilen Tür9"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Gezinme
+

@@ -1,0 +1,21 @@
+model Model
+	culture: tr-TR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: tr-TR
+	dataAccessOptions
+		fastCombine
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["temiz csv"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.144.1155.0 (25.06)+46435b07013d2a234d7fd007083a9e70b8e79f1c
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'temiz csv'
+
+ref cultureInfo tr-TR
+

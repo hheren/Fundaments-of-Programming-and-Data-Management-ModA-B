@@ -1,0 +1,246 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.65\",\"type\":2}},\"activeSectionIndex\":5,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Drug Safety Information",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "10483385edd167a1b486",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0af15f4f178a83837a44\",\"layouts\":[{\"id\":0,\"position\":{\"x\":289.07063197026025,\"y\":0,\"z\":1000,\"width\":990.9293680297399,\"height\":279.5539033457249,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(temiz csv.Utilizzo in gravidanza)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Utilizzo in gravidanza\"}},\"Function\":3},\"Name\":\"Min(temiz csv.Utilizzo in gravidanza)\",\"NativeReferenceName\":\"İlk Utilizzo in gravidanza\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 279.55,
+          "width": 990.93,
+          "x": 289.07,
+          "y": 0.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"6c40e50c0b38c67d9d25\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.516728624535316,\"y\":449.6654275092937,\"z\":3000,\"width\":1270.4832713754647,\"height\":149.88847583643124,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(temiz csv.Uyarı Kategorileri)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Uyarı Kategorileri\"}},\"Function\":3},\"Name\":\"Min(temiz csv.Uyarı Kategorileri)\",\"NativeReferenceName\":\"İlk Uyarı Kategorileri\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 149.89,
+          "width": 1270.48,
+          "x": 9.52,
+          "y": 449.67,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"a0d0eb9280478d09c10d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.516728624535316,\"y\":0,\"z\":0,\"width\":279.5539033457249,\"height\":279.5539033457249,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"temiz csv.Principio Attivo\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"},\"Name\":\"temiz csv.Principio Attivo\",\"NativeReferenceName\":\"Principio Attivo\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Esomeprazolo'\"}}]]}}}]}}}}],\"selection\":[{\"properties\":{\"strictSingleSelect\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 279.55,
+          "width": 279.55,
+          "x": 9.52,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"fddc64a0399e027e0edb\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":279.5539033457249,\"z\":2000,\"width\":1280,\"height\":170.1115241635688,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(temiz csv.Utilizzo in allattamento)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Utilizzo in allattamento\"}},\"Function\":3},\"Name\":\"Min(temiz csv.Utilizzo in allattamento)\",\"NativeReferenceName\":\"İlk Utilizzo in allattamento\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 170.11,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 279.55,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Dashboard",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "464a301ae518087ba411",
+      "ordinal": 5,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"5161d38570e147dc9dd5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":451.2584053794429,\"y\":290.1825168107589,\"z\":5000,\"width\":399.6157540826129,\"height\":322.15177713736796,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(temiz csv.Principio Attivo)\"}],\"Category\":[{\"queryRef\":\"temiz csv.Utilizzo in gravidanza\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"}},\"Function\":5},\"Name\":\"CountNonNull(temiz csv.Principio Attivo)\",\"NativeReferenceName\":\"Principio Attivo Sayısı\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Utilizzo in gravidanza\"},\"Name\":\"temiz csv.Utilizzo in gravidanza\",\"NativeReferenceName\":\"Utilizzo in gravidanza\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 322.15,
+          "width": 399.62,
+          "x": 451.26,
+          "y": 290.18,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"67c3e8d6809e401d171b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":850.8741594620558,\"y\":0,\"z\":3000,\"width\":280.34582132564844,\"height\":280.34582132564844,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(temiz csv.Interazioni Farmaco-Farmaco)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Interazioni Farmaco-Farmaco\"}},\"Function\":2},\"Name\":\"Min(temiz csv.Interazioni Farmaco-Farmaco)\",\"NativeReferenceName\":\"Interazioni Farmaco-Farmaco Sayısı1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Interazioni Farmaco-Farmaco\"}},\"Function\":2}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.35,
+          "width": 280.35,
+          "x": 850.87,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"93542423061430eb41b2\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(temiz csv.Principio Attivo)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"}},\"Function\":2},\"Name\":\"Min(temiz csv.Principio Attivo)\",\"NativeReferenceName\":\"Principio Attivo Sayısı1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"}},\"Function\":2}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 280.00,
+          "x": 10.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"abce828569730a015b46\",\"layouts\":[{\"id\":0,\"position\":{\"x\":851,\"y\":290,\"width\":280,\"height\":322,\"z\":6000,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(temiz csv.Principio Attivo)\"}],\"Category\":[{\"queryRef\":\"temiz csv.Interazioni Farmaco-Farmaco\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"}},\"Function\":5},\"Name\":\"CountNonNull(temiz csv.Principio Attivo)\",\"NativeReferenceName\":\"Principio Attivo Sayısı\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Interazioni Farmaco-Farmaco\"},\"Name\":\"temiz csv.Interazioni Farmaco-Farmaco\",\"NativeReferenceName\":\"Interazioni Farmaco-Farmaco\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 322.00,
+          "width": 280.00,
+          "x": 851.00,
+          "y": 290.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"b544bbd6611d1200002e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.836695485110472,\"y\":290.1825168107589,\"z\":4000,\"width\":441.4217098943324,\"height\":322.15177713736796,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"temiz csv.Principio Attivo\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(temiz csv.Effetti indesiderati (sintomi))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"},\"Name\":\"temiz csv.Principio Attivo\",\"NativeReferenceName\":\"Principio Attivo\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"}},\"Function\":5},\"Name\":\"CountNonNull(temiz csv.Effetti indesiderati (sintomi))\",\"NativeReferenceName\":\"Effetti indesiderati (sintomi) Sayısı\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"filterSortOrder\":3,\"hasDefaultSort\":true}}",
+          "filters": "[{\"name\":\"65edc5c1052a5db06276\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"temiz csv\"}},\"Property\":\"Principio Attivo\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"}},\"Function\":5}}}],\"Top\":5}}},\"Type\":2},{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":1}]",
+          "height": 322.15,
+          "width": 441.42,
+          "x": 9.84,
+          "y": 290.18,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"df7f98b57be0e6e5685d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":570.5283381364073,\"y\":0,\"z\":2000,\"width\":280.34582132564844,\"height\":280.34582132564844,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(temiz csv.Effetti indesiderati (sintomi))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"}},\"Function\":2},\"Name\":\"Min(temiz csv.Effetti indesiderati (sintomi))\",\"NativeReferenceName\":\"Effetti indesiderati (sintomi) Sayısı1\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"}},\"Function\":2}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.35,
+          "width": 280.35,
+          "x": 570.53,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"e084e8195250c069ab30\",\"layouts\":[{\"id\":0,\"position\":{\"x\":290.1825168107589,\"y\":0,\"z\":1000,\"width\":280.34582132564844,\"height\":280.34582132564844,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(temiz csv.Titolare AIC)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Titolare AIC\"}},\"Function\":2},\"Name\":\"Min(temiz csv.Titolare AIC)\",\"NativeReferenceName\":\"Titolare AIC Sayısı\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Titolare AIC\"}},\"Function\":2}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.35,
+          "width": 280.35,
+          "x": 290.18,
+          "y": 0.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspacePane\":[{\"properties\":{\"width\":{\"expr\":{\"Literal\":{\"Value\":\"185L\"}}}}}]}}",
+      "displayName": "Drug Interactions",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "50773afd3b10d77e4b00",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"117abaae970b05c37879\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10.559120073327223,\"y\":0,\"z\":0,\"width\":445.82951420714943,\"height\":280.4032997250229,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"temiz csv.Principio Attivo\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"},\"Name\":\"temiz csv.Principio Attivo\",\"NativeReferenceName\":\"Principio Attivo\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"filter\":{\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'Amlodipina'\"}}]]}}}]}}}}]}}}",
+          "filters": "[]",
+          "height": 280.40,
+          "width": 445.83,
+          "x": 10.56,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ddebab2f0a4c073e9798\",\"layouts\":[{\"id\":0,\"position\":{\"x\":456.38863428047665,\"y\":0,\"z\":1000,\"width\":823.6113657195234,\"height\":280.4032997250229,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"temiz csv.Principio Attivo\"},{\"queryRef\":\"temiz csv.Interazioni Farmaco-Farmaco\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"},\"Name\":\"temiz csv.Principio Attivo\",\"NativeReferenceName\":\"Principio Attivo\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Interazioni Farmaco-Farmaco\"},\"Name\":\"temiz csv.Interazioni Farmaco-Farmaco\",\"NativeReferenceName\":\"Interazioni Farmaco-Farmaco\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Interazioni Farmaco-Farmaco\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 280.40,
+          "width": 823.61,
+          "x": 456.39,
+          "y": 0.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Drug Info Card",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "55a8f6f0d6112d087669",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"068748a9aa060b01a752\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":279.5539033457249,\"z\":1000,\"width\":1280,\"height\":440.1486988847584,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"multiRowCard\",\"projections\":{\"Values\":[{\"queryRef\":\"temiz csv.ATC\"},{\"queryRef\":\"temiz csv.Titolare AIC\"},{\"queryRef\":\"temiz csv.Denominazione e Confezione\"},{\"queryRef\":\"temiz csv.Via di somministrazione\"},{\"queryRef\":\"temiz csv.Assunzione con/senza cibo\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"ATC\"},\"Name\":\"temiz csv.ATC\",\"NativeReferenceName\":\"ATC\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Titolare AIC\"},\"Name\":\"temiz csv.Titolare AIC\",\"NativeReferenceName\":\"Titolare AIC\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Denominazione e Confezione\"},\"Name\":\"temiz csv.Denominazione e Confezione\",\"NativeReferenceName\":\"Denominazione e Confezione\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Via di somministrazione\"},\"Name\":\"temiz csv.Via di somministrazione\",\"NativeReferenceName\":\"Via di somministrazione\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Assunzione con/senza cibo\"},\"Name\":\"temiz csv.Assunzione con/senza cibo\",\"NativeReferenceName\":\"Assunzione con/senza cibo\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 440.15,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 279.55,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"c6e89ffc3db1bdea7dec\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":1280,\"height\":279.5539033457249,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"temiz csv.Principio Attivo\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"},\"Name\":\"temiz csv.Principio Attivo\",\"NativeReferenceName\":\"Principio Attivo\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 279.55,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Types of Side Effects",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "c31501493deaaba37798",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"bf9c39815c209b45b399\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.516728624535316,\"y\":0,\"z\":0,\"width\":1270.4832713754647,\"height\":719.7026022304833,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"temiz csv.Effetti indesiderati (sintomi)\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(temiz csv.Effetti indesiderati (sintomi))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"},\"Name\":\"temiz csv.Effetti indesiderati (sintomi)\",\"NativeReferenceName\":\"Effetti indesiderati (sintomi)\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"}},\"Function\":5},\"Name\":\"CountNonNull(temiz csv.Effetti indesiderati (sintomi))\",\"NativeReferenceName\":\"Effetti indesiderati (sintomi) Sayısı\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 719.70,
+          "width": 1270.48,
+          "x": 9.52,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Drug-Side Effect Count",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "edd1cb0a428e14e088e0",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"5e4b6d896e00a7483d7a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.516728624535316,\"y\":0,\"z\":0,\"width\":1270.4832713754647,\"height\":719.7026022304833,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"temiz csv.Principio Attivo\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(temiz csv.Effetti indesiderati (sintomi))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"temiz csv\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Principio Attivo\"},\"Name\":\"temiz csv.Principio Attivo\",\"NativeReferenceName\":\"Principio Attivo\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"}},\"Function\":5},\"Name\":\"CountNonNull(temiz csv.Effetti indesiderati (sintomi))\",\"NativeReferenceName\":\"Effetti indesiderati (sintomi) Sayısı\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Effetti indesiderati (sintomi)\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 719.70,
+          "width": 1270.48,
+          "x": 9.52,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
